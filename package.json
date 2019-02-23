@@ -1,0 +1,27 @@
+{
+  "name": "shopapp",
+  "version": "1.0.0",
+  "description": "a shopping app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "shop"
+  ],
+  "author": "Shubham",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.13",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "nodemailer": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
