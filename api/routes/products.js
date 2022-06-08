@@ -26,10 +26,10 @@ const upload = multer({storage: storage,
   },
   fileFilter : fileFilter
 });
-
+//, checkAuth , upload.single('productImage')
 router.get('/', ProductsControllers.products_get_all);
 
-router.post('/', checkAuth, upload.single('productImage'), ProductsControllers.products_create_product);
+router.post('/', ProductsControllers.products_create_product);
 
 router.get('/:productId', ProductsControllers.products_get_product);
 
