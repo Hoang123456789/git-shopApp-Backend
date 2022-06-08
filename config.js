@@ -2,7 +2,7 @@
 module.exports = nodeMailerData = {
   'nodemailer' : {
   		'user': 'hoangwukong1995@gmail.com  ',
-  		'pass': 'danghoang318017'
+  		'passWord': 'danghoang318017'
   }
 }
 // module.exports = nodeMailerData = {
